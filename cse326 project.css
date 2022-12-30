@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(5,0,123,0.5),rgba(5,0,123,0.5)),url(images/back.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    padding: 130px 30px;
+}
+.heading h1{
+    font-size: 5em;
+    color: white;
+}
+.heading p{
+    font-size: 2em;
+    color: white;
+}
+.heading h1, .heading p{
+    animation-name: lineone;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes lineone{
+    from{
+        margin-left: -500px;
+    }
+    to{
+        padding-left: 0;
+    }
+}
+.menu{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    border: 1px solid red;
+}
+.l{
+    margin: 0 20px 30px 20px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 0 0 25px 25px;
+    float: left;
+}
+.l p{
+    font-size: 20px;
+    text-align: center;
+}
+.l p a{
+    text-decoration: none;
+}
+.body1, .body2{
+    float: left;
+}
+.body1{
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    height: 550px;
+    border: 1px solid black;
+    border-radius: 50% 50% 0 0;
+    background-color: brown;
+}
+.board{
+    width: 560px;
+    height: 510px;
+    border: 1px solid black;
+    border-radius: 50% 50% 0 0;
+    background-color: rgb(39, 39, 39);
+}
+.greet{
+    margin-top: 30px;
+}
+.greet h1, .greet h2{
+    text-align: center;
+    color: white;
+}
+.greet h2{
+    margin-top: 10px;
+}
+.a{
+    margin: 50px 10px;
+}
+.spec, .vl{
+    float: left;
+}
+.spec{
+    margin: 20px 10px;
+    padding: 0 5px;
+}
+.vl{
+    width: 1px;
+    height: 200px;
+    border: 3px solid white;
+}
+.spec li{
+    margin: 10px;
+    color: white;
+    font-size: 17px;
+}
+.spec li p{
+    color: white;
+    font-size: 17px;
+}
+#q{
+    margin: 0 10px;
+    margin-top: 50px;
+    float: right;
+}
+#q p{
+    font-size: 10px;
+    color: white;
+}
+.body2{
+    margin: 20px;
+    width: 750px;
+    height: 550px;
+    color: white;
+    border: 1px solid black;
+}
+.veg, .non, .cont{
+    float: left;
+}
+.veg{
+    padding-top: 320px;
+    width: 249.5px;
+    height: 550px;
+    background-image: linear-gradient(rgba(5,0,123,0.5),rgba(5,0,123,0.5)),url(images/panner.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.non{
+    padding-top: 230px;
+    width: 249.5px;
+    height: 550px;
+    background-image: linear-gradient(rgba(5,0,123,0.5),rgba(5,0,123,0.5)),url(images/chiken.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cont{
+    padding-top: 70px;
+    width: 249px;
+    height: 550px;
+    background-image: linear-gradient(rgba(5,0,123,0.5),rgba(5,0,123,0.5)),url(images/cont.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.veg h2, .non h2, .cont h2{
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.veg ul, .non ul, .cont ul{
+    margin-left: 20px;
+}
+.c{
+    text-decoration: underline;
+    font-size: 20px;
+    list-style-type: square;
+}
+.d{
+    margin-bottom: 10px;
+}
+.body3{
+    margin: 0 45px;
+}
+.body3 h2{
+    text-align: center;
+}
+.r{
+    margin: 20px 10px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    float: left;
+    box-shadow:  10px -10px 20px #5c5c5c,
+                -10px 10px 20px #ffffff;
+}
+.r img{
+    margin: 0 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#n p{
+    text-align: center;
+}
+.v{
+    margin: 90px 85px 20px 85px;
+}
+#u{
+    margin: 10px 0;
+    width: 30px;
+    height: 1px;
+    border: 2px solid black;
+}
+#o{
+    margin: -27px 13px 0 13px;
+    width: 1px;
+    height: 30px;
+    border: 2px solid black;
+}
+.add p{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.order{
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+.order:hover{
+    background-color: #5c5c5c;
+    color: #ffffff;
+}
